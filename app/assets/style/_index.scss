@@ -1,0 +1,42 @@
+.container{
+    .menu{
+        width: 25%;
+        ul li{
+            margin-bottom: 29px;
+            i{
+                margin-right: 16px;
+            }
+        }
+        .person{
+            margin-top: 80%;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            h2{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .product{
+        width: 75%;
+        .productTable{
+            display: flex;
+            flex-direction: column;
+            .page{
+                margin-top: 63px;
+                align-self: flex-end;
+                li{
+                    a{
+                        border: 1px solid gray;
+                        padding: 6px 11px;
+                    }
+                }
+            }
+        }
+    }
+}
