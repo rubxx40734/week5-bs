@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  font-size: 16px; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+.container .menu {
+  width: 25%; }
+  .container .menu ul li {
+    margin-bottom: 29px; }
+    .container .menu ul li i {
+      margin-right: 16px; }
+  .container .menu .person {
+    margin-top: 80%; }
+    .container .menu .person img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+    .container .menu .person h2 {
+      font-size: 16px; }
+    .container .menu .person p {
+      font-size: 14px; }
+
+.container .product {
+  width: 75%; }
+  .container .product .productTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .container .product .productTable .page {
+      margin-top: 63px;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+      .container .product .productTable .page li a {
+        border: 1px solid gray;
+        padding: 6px 11px; }
+
+/*# sourceMappingURL=all.css.map */
